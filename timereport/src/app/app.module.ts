@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MdButtonModule, MdCheckboxModule} from '@angular/material';
 import {MdListModule} from '@angular/material';
+import {MdMenuModule} from '@angular/material';
+import {MdIconModule} from '@angular/material';
 
 import 'hammerjs';
 import { AppComponent } from './app.component';
@@ -16,7 +18,9 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     MdButtonModule, 
     MdCheckboxModule,
-    MdListModule
+    MdListModule,
+    MdMenuModule,
+    MdIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
